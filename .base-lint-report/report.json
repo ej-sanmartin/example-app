@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "total": 3,
+    "limited": 2,
+    "newly": 1,
+    "widely": 0
+  },
+  "findings": [
+    {
+      "file": "src/app.tsx",
+      "line": 3,
+      "column": 64,
+      "featureId": "share",
+      "featureName": "navigator.share()",
+      "baseline": "limited",
+      "guidance": "Provide fallback UI or feature detection for unsupported browsers.",
+      "ruleId": "baseline/limited"
+    },
+    {
+      "file": "src/app.tsx",
+      "line": 4,
+      "column": 26,
+      "featureId": "share",
+      "featureName": "navigator.share()",
+      "baseline": "limited",
+      "guidance": "Provide fallback UI or feature detection for unsupported browsers.",
+      "ruleId": "baseline/limited"
+    },
+    {
+      "file": "src/styles.css",
+      "line": 1,
+      "column": 2,
+      "featureId": "has",
+      "featureName": ":has()",
+      "baseline": "newly",
+      "guidance": "OK for modern targets; keep a fallback in place for older browsers.",
+      "ruleId": "baseline/newly"
+    }
+  ],
+  "meta": {
+    "cliVersion": "1.0.6",
+    "datasetVersion": "2.49.0",
+    "strict": true,
+    "treatNewlyAs": "warn",
+    "generatedAt": "2025-09-28T05:54:08.687Z"
+  }
+}

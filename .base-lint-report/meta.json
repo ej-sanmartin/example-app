@@ -1,0 +1,31 @@
+{
+  "cliVersion": "1.0.6",
+  "datasetVersion": "2.49.0",
+  "generatedAt": "2025-09-28T05:54:08.687Z",
+  "config": {
+    "path": "/Users/edgarsanmartin/Documents/codex/base-lint/examples/demo-app/base-lint.config.json",
+    "mode": "repo",
+    "strict": true,
+    "treatNewlyAs": "warn",
+    "maxLimited": 0,
+    "suppress": [],
+    "include": [
+      "src/**/*.{ts,tsx,css}",
+      "public/**/*.html"
+    ],
+    "ignore": [
+      "node_modules/",
+      "dist/",
+      "build/",
+      "coverage/",
+      "*.min.js",
+      "**/*.test.{ts,tsx}",
+      "src/mocks/**"
+    ]
+  },
+  "filesAnalyzed": [
+    "src/app.tsx",
+    "src/styles.css",
+    "public/index.html"
+  ]
+}

@@ -1,10 +1,16 @@
 {
   "mode": "diff",
+  "strict": true,
   "treatNewlyAs": "warn",
   "maxLimited": 0,
-  "strict": false,
   "targets": "all",
   "suppress": [],
-  "include": [],
-  "ignore": []
+  "include": [
+    "src/**/*.{ts,tsx,css}",
+    "public/**/*.html"
+  ],
+  "ignore": [
+    "**/*.test.{ts,tsx}",
+    "src/mocks/**"
+  ]
 }
